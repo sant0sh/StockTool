@@ -8,10 +8,12 @@ public class StockInfo {
 		Stock ibm = new Stock("IBM", 1);
 		Stock infosys = new Stock("Infosys", 1);
 		Stock wipro = new Stock("Wipro", 0);
+		Stock icici = new Stock("ICICI", 0);
 		
 		ibm.displayInfo();
 		infosys.displayInfo();
 		wipro.displayInfo();
+		icici.displayInfo();
 
 	}
 }
