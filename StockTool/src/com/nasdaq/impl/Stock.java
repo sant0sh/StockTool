@@ -1,6 +1,6 @@
-package com.ibm.impl;
+package com.nasdaq.impl;
 
-import com.ibm.interfaces.StockProperties;
+import com.nasdaq.interfaces.StockProperties;
 
 public class Stock implements StockProperties {
 
