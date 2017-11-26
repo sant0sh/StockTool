@@ -7,11 +7,7 @@ targetCompatibility = 1.8
 sourceSets {
     main {
         java {
-<<<<<<< HEAD
             srcDir 'StockTool/src'
-=======
-            srcDir 'src'
->>>>>>> d3bea21049f2af5dc253f9e3d80255538ad68b1d
         }
     }
 }
