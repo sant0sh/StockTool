@@ -28,3 +28,10 @@ task runStockInfo(dependsOn: 'jar', type: JavaExec) {
   main = 'com.ibm.main.StockInfo';
 }
 
+exec {
+
+executable 'tree'
+
+args '-sa'
+
+}
