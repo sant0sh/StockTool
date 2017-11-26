@@ -2,3 +2,8 @@ language: java
 
 jdk:
   - oraclejdk8
+  
+  # Build all branches, *including* gh-pages:
+branches:
+  only:
+  - gh-pages
