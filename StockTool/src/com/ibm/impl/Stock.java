@@ -1,18 +1,18 @@
 package com.ibm.impl;
 
-import com.ibm.StockProperties;
+import com.ibm.interfaces.StockProperties;
 
 public class Stock implements StockProperties {
 
-	String stockName;
-	int stockInfo=0;
+	private String stockName;
+	private int stockInfo;
 	
-	public Stock(String stockName, int stockInfo) {
+	public Stock(String stockName) {
 		this.stockName=stockName;
-		this.stockInfo=stockInfo;
+		stockInfo=(int) Math.round(Math.random());
 	}
 	
-	public void displayInfo()
+	public void displayTrend()
 	{
 		if (stockInfo == 1)
 		{
