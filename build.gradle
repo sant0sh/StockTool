@@ -19,11 +19,11 @@ repositories {
 jar {
 baseName = 'StockTool'
 manifest {
-        attributes 'Main-Class': 'com.ibm.main.StockInfo'
+        attributes 'Main-Class': 'com.nasdaq.main.StockInfo'
     }
 }
 
 task runStockInfo(dependsOn: 'jar', type: JavaExec) {
   classpath = sourceSets.main.runtimeClasspath;
-  main = 'com.ibm.main.StockInfo';
+  main = 'com.nasdaq.main.StockInfo';
 }
