@@ -23,8 +23,7 @@ manifest {
     }
 }
 
-task runStockInfo(type: JavaExec) {
+task runStockInfo(dependsOn: 'classes', type: JavaExec) {
   classpath = sourceSets.main.runtimeClasspath
   main = 'com.ibm.main.StockInfo'
 }
-
