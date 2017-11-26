@@ -1,5 +1,8 @@
 language: java
 
+script :
+gradle runStockInfo
+
 jdk:
   - oraclejdk8
 
