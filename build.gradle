@@ -27,11 +27,3 @@ task runStockInfo(dependsOn: 'jar', type: JavaExec) {
   classpath = sourceSets.main.runtimeClasspath;
   main = 'com.ibm.main.StockInfo';
 }
-
-exec {
-
-executable 'tree'
-
-args '-sa'
-
-}
