@@ -13,7 +13,7 @@ public class StockInfo {
 		Stock google = new Stock("Google");
 		
 		// Display stock trends
-		ibm.displayTrend();
+		ibm.displayTrendT();
 		amazon.displayTrend();
 		tesla.displayTrend();
 		google.displayTrend();
