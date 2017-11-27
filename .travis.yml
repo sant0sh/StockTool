@@ -7,10 +7,11 @@ jdk:
 script: 
         gradle clean runStockInfo
 
-deploy:
+/*deploy:
   provider: releases
   api_key: "b6ce1edda62b234feb0aafa23ac540f3b7fb079b"
   file: "build/libs/StockTool.jar"
   skip_cleanup: true
   on:
     tags: true
+*/
