@@ -4,3 +4,6 @@ jdk:
   - oraclejdk8
 
 script: gradle clean runStockInfo
+after_success:
+
+echo '$TRAVIS_BUILD_DIR'
