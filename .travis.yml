@@ -7,5 +7,10 @@ jdk:
 script: 
         gradle clean runStockInfo
 
-after_success:
-        echo '$TRAVIS_BUILD_DIR'
+deploy:
+  provider: releases
+  api_key: "token1"
+  file: "build/libs/StockTool.jar"
+  skip_cleanup: true
+  on:
+    tags: true
