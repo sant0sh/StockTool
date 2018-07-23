@@ -12,6 +12,8 @@ public class StockInfo {
 		Stock tesla = new Stock("Tesla");
 		Stock google = new Stock("Google");
 		Stock yahoo = new Stock("Yahoo!");
+		Stock pepsico = new Stock("Pepsico");
+		Stock yamaha = new Stock("Yamaha");
 		
 		// Display stock trends
 		ibm.displayTrend();
@@ -19,6 +21,8 @@ public class StockInfo {
 		tesla.displayTrend();
 		google.displayTrend();
 		yahoo.displayTrend();
+		pepsico.displayTrend();
+		yamaha.displayTrend();
 
 	}
 }
